@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "age": 25,
+        "password": "password123",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBk..."
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "age": 30,
+        "password": "secret456",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY..."
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "email": "bobjohnson@example.com",
+        "age": 40,
+        "password": "secure789",
+        "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAA..."
+      }
+    ]
+  }
+  

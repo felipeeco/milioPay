@@ -1,0 +1,32 @@
+<app-logo></app-logo>
+<div class="login-container">
+    <div class="login-box">
+        <div class="tittle-box">
+            <i class="fa-solid fa-arrow-left tittle-box__icon" (click)="goBack()"></i>
+            <h1 class="login-box__tiitle">
+                Iniciar Sesion
+            </h1>
+        </div>
+        
+        <p class="login-box__pre-mail">
+            {{email}}
+        </p>
+        <form [formGroup]="formulario" (ngSubmit)="onSubmit()" class="form">
+            <div class="form-box">
+              <label class="form-box__label form-box__label--password" for="password">Contraseña</label>
+              <input class="form-box__input" [type]="isPasswordVisible ? 'text' : 'password'" id="password" formControlName="password" autocomplete="new-password">
+              <div class="form-box__icon-pasword-box">
+                <i class="fa-regular form-box__icon-pasword"
+                    [class.fa-eye]="!isPasswordVisible"
+                    [class.fa-eye-slash]="isPasswordVisible"
+                    (click)="togglePasswordVisibility()">
+                </i>
+              </div>
+            </div>
+            <div *ngIf="formulario.controls['password'].errors">Debe ingresar una contraseña</div>
+            <p class="p-link">Olvidé contraseña</p>
+            <button [disabled]="!formulario.valid" class="form-box__button" type="submit">Continuar</button>
+            <p class="p-link--center">Iniciar sesión con clave dinámica</p>
+        </form>
+     </div>
+</div>

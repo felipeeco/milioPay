@@ -1,0 +1,35 @@
+.login-box__pre-mail {
+    background-color: #F2F9F9;
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+    height: 40px;
+    padding: 15px 0px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.form-box__label--password{
+    width: 85px;
+}
+
+.tittle-box {
+  display: flex;
+  justify-content: flex-start; /* Alineación horizontal hacia la izquierda */
+  align-items: center; /* Alineación vertical en el centro */
+}
+
+.tittle-box__icon {
+    font-size: 33px;
+    margin-top: 8px;
+    color: var(--border-gray);
+    margin-top: -20px;
+    margin-left: 34px;
+    margin-right: 88px;
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    .tittle-box__icon{
+        margin-right: 13px;
+    }
+}

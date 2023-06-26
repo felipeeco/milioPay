@@ -1,0 +1,21 @@
+<app-logo></app-logo>
+<div class="login-container">
+    <div class="login-box">
+        <h1 class="login-box__tiitle">
+            Iniciar Sesion
+        </h1>
+        <h4 class="login-box__subtittle">
+            Ingresa tu correo electrónico
+        </h4>
+        <form [formGroup]="formulario" (ngSubmit)="onSubmit()" class="form">
+            <div class="form-box">
+              <label class="form-box__label" for="email">Correo electrónico</label>
+              <input class="form-box__input" type="email" id="email" formControlName="email">
+            </div>
+            <div *ngIf="formulario.controls['email'].errors?.['pattern']">El email no es válido.</div>
+            <button [disabled]="!formulario.valid" class="form-box__button" type="submit">Continuar</button>
+        </form>
+     </div>
+</div>
+
+
