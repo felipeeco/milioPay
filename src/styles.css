@@ -19,6 +19,10 @@
     font-family: 'Satoshi';
   }
 
+html, body {
+    height: 100%;
+    margin: 0px;
+}
 
 /* utilities */
 .p-link {

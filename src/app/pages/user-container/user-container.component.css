@@ -1,0 +1,46 @@
+.menu .logo {
+    margin-left: 30px;
+}
+
+.container-body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100%;
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    list-style-type: none;
+    padding-left: 14px;
+    justify-content: space-between;
+}
+
+.menu__row {
+    width: 100%;
+    padding-left: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu__row--active {
+    background-color: #ECE6FF;
+}
+
+.menu__row a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu__row a img {
+    margin-right: 10px;
+}
+
+.container {
+    background-color: #f5f5f5;
+    border-left: 10px solid white;
+}

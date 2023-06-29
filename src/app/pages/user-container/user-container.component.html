@@ -1,2 +1,38 @@
-<p>user-container works!</p>
-<router-outlet></router-outlet>
+<div class="container-body">
+    <aside class="menu">
+        <img [routerLink]="['/']" src="../../../assets/imagenes/Tiaca.png" alt="Logo" class="logo">
+        <nav>
+            <ul class="menu__container">
+                <li class="menu__row">
+                    <a href="#">
+                        <img src="../../../assets/icons/house-icon.png" alt="home-icon">
+                        Menú 1 
+                    </a> 
+                </li>
+                <li class="menu__row">
+                    <a href="#">
+                        <img src="../../../assets/icons/graph-icon.png" alt="graph-icon">
+                        Menú 2 
+                    </a> 
+                </li>
+                <li class="menu__row menu__row--active">
+                    <a href="#">
+                        <img src="../../../assets/icons/pay-icon.png" alt="pay-icon">
+                        Pagos
+                    </a> 
+                </li>
+                <li class="menu__row">
+                    <a href="#">
+                        <img src="../../../assets/icons/nut-icon.png" alt="nut-icon">
+                        Menu 3
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
