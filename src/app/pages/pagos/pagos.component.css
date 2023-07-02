@@ -1,0 +1,94 @@
+.success-pay {
+    display: flex;
+    border: 1px solid var(--border-gray);
+    width: 187px;
+    padding: 10px 21px 10px 15px;
+    border-left: 15px #0136FE solid;
+    border-radius: 5px;
+    float: right;
+    margin-top: -75px;
+}
+
+.success-pay_img {
+    width: 35px;
+    height: 35px;
+}
+
+.success-pay_p{
+    font-size: 20px;
+    margin-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+nav.filter-box {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.filter-box-boton {
+    display: flex;
+    margin-right: 20px;
+}
+
+.filter-box-boton a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.filter-box-boton p {
+    color: var(--blue-soft-background);
+    padding: 0px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 1px solid var(--blue-soft-background);
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.boton--active p {
+    background-color: var(--blue-soft-background);
+    color: white;
+}  
+
+.boton--active a {
+    border-bottom: var(--blue-soft-background) 3px solid;
+    color: black;
+}
+
+.description-box {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-left: -15px;
+}
+
+.description-box div {
+    margin-left: 30px;
+    margin-right: 70px;
+    border-right: 1px solid #ABABAB;
+    padding-right: 81px;
+}
+
+.description-box-valor {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.description-box-total-pagos {
+    color: var(--border-gray);
+}
+
+.description-box-total-pagos a {
+    color: var(--blue-soft-background);
+    text-decoration: none;
+}
+
+.no-border-right {
+    border-right: 0px !important;
+}
