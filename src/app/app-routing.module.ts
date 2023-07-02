@@ -17,7 +17,8 @@ const routes: Routes = [
     children: [
       { path: '', component: PagosComponent },
     ]
-  }
+  },
+  { path: '**', redirectTo: 'login', pathMatch: 'full' },
 ];
 
 @NgModule({

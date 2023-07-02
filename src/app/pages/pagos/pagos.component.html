@@ -37,35 +37,78 @@
     </div>
     <div>
         <p class="description-box-c">
-            Total a pagar
+            Por vencer en 7 días
         </p>
         <p class="description-box-valor">
-            $600.000
+            8 facturas
         </p>
         <p class="description-box-total-pagos">
-            Total pagos: 3 (<a href="javascript:;">5 facturas</a>)
+            Hoy: 4 facturas
         </p>
     </div>
     <div>
         <p class="description-box-c">
-            Total a pagar
+            Proveedor mayor monto
         </p>
         <p class="description-box-valor">
-            $600.000
+            Clínica de piel
         </p>
         <p class="description-box-total-pagos">
-            Total pagos: 3 (<a href="javascript:;">5 facturas</a>)
+            Total: $3.000.000
         </p>
     </div>
     <div class="no-border-right">
         <p class="description-box-c">
-            Total a pagar
+            Categoría más frecuente
         </p>
         <p class="description-box-valor">
-            $600.000
+            Servicios de salud
         </p>
         <p class="description-box-total-pagos">
-            Total pagos: 3 (<a href="javascript:;">5 facturas</a>)
+            Frecuencia: 8
         </p>
     </div>
 </section>
+<aside class="search-box">
+    <div class="search-input-box">
+        <div>
+            <i class="fa-solid fa-magnifying-glass search-box__icon"></i>
+            <input type="text" class="search-box__input" />
+        </div>
+        <a class="search-input-box__button">
+            <i class="fa-solid fa-grip-lines"></i>
+            Ordenar
+        </a>
+    </div>
+    <a class="exportar-button" href="javascript:;">
+        <img class="exportar-button__img" src="../../../assets/icons/upload.png" alt="upload">
+        <p class="exportar-button__p">Exportar</p>
+    </a>
+</aside>
+<table id="table-information">
+        <tr class="first-line">
+            <td [ngStyle]="{'width': '31px'}">
+                <input type="checkbox">
+            </td>
+            <td [ngStyle]="{'width': '100px'}">Pago</td>
+            <td [ngStyle]="{'width': '120px'}">Proveedor</td>
+            <td [ngStyle]="{'width': '80px'}">Categoría</td>
+            <td [ngStyle]="{'width': '100px'}">Vence</td>
+            <td [ngStyle]="{'width': '100px'}">Valor</td>
+            <td [ngStyle]="{'width': '100px'}">Responsable</td>
+            <td [ngStyle]="{'width': '100px'}">Estado</td>
+        </tr>
+        <tr>
+            <td [ngStyle]="{'width': '31px'}"><input type="checkbox"></td>
+            <td [ngStyle]="{'width': '100px'}"><a href="javascript:;">FE1658568</a><p>12 Items</p></td>
+            <td [ngStyle]="{'width': '120px'}">Clínica Uno<p>NIT 901300200</p></td>
+            <td [ngStyle]="{'width': '80px'}">Legal</td>
+            <td [ngStyle]="{'width': '100px'}">20/02/2020</td>
+            <td [ngStyle]="{'width': '100px'}">$200.000</td>
+            <td [ngStyle]="{'width': '100px'}">Jesús Caldas</td>
+            <td [ngStyle]="{'width': '100px'}"><a href="javascript:;" class="button-por-pagar">Por pagar</a></td>
+          </tr>
+
+</table>
+  
+

@@ -64,17 +64,18 @@ nav.filter-box {
     padding-top: 50px;
     padding-left: 0px;
     margin-left: -15px;
+    border-bottom: 0.5px solid #D1D1D1;
+    padding-bottom: 60px;
 }
 
 .description-box div {
     margin-left: 30px;
-    margin-right: 70px;
     border-right: 1px solid #ABABAB;
-    padding-right: 81px;
+    padding-right: 4%;
 }
 
 .description-box-valor {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -92,3 +93,105 @@ nav.filter-box {
 .no-border-right {
     border-right: 0px !important;
 }
+
+.search-box__input {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 26px;
+    width: 200px;
+}
+
+.search-box__icon {
+    position: relative;
+    left: 25px;
+}
+
+.search-input-box {
+    display: flex;
+}
+
+.search-box {
+    margin-top: 40px;
+}
+
+.search-input-box__button {
+    border: 1px solid black;
+    border-radius: 26px;
+    padding: 5px 15px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.exportar-button {
+    background-color: #F0F0F0;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    width: 92px;
+    padding: 1px 18px;
+    border-radius: 27px;
+    float: right;
+    margin-top: -34px;
+}
+
+.exportar-button__img {
+    width: 30px;
+    height: 30px;
+}
+
+.exportar-button__p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#table-information {
+    margin-top: 70px;
+    text-align: left;
+    width: 100%;
+}
+
+#table-information {
+    width: 100%;
+}
+
+#table-information tr {
+    display: block;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 25px;
+}
+
+#table-information input[type='checkbox']{
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+#table-information th, #table-information td {
+    padding-right: 20px;
+}
+
+#table-information a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#table-information p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #707070;
+}
+
+#table-information .first-line td {
+    font-weight: 600;
+}
+
+#table-information .button-por-pagar {
+    background-color: #E7F9FF;
+    color: #0136FE;
+    padding: 7px 14px;
+    border-radius: 50px;
+}
+
+  
